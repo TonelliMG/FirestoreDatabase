@@ -2,7 +2,7 @@ const admin = require("firebase-admin");
 const fs = require("fs");
 
 // Caminho para a chave JSON do seu primeiro projeto Firebase
-const serviceAccount = require("./exportjson");
+const serviceAccount = require("./portifolio");
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
